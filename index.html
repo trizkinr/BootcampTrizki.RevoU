@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pink Productivity Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<header class="card">
+<h1 id="time"></h1>
+<p id="date"></p>
+<h2 id="greeting"></h2>
+</header>
+
+<div class="grid">
+
+<div class="card">
+<h3>Focus Timer</h3>
+<h1 id="timer">25:00</h1>
+
+<div class="timer-buttons">
+<button id="start">Start</button>
+<button id="stop">Stop</button>
+<button id="reset">Reset</button>
+</div>
+</div>
+
+<div class="card">
+<h3>Tasks</h3>
+
+<input id="taskInput" placeholder="Add a task">
+<button id="addTask">Add</button>
+
+<ul id="taskList"></ul>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Quick Links</h3>
+
+<input id="linkName" placeholder="Website name">
+<input id="linkURL" placeholder="https://example.com">
+<button id="addLink">Add Link</button>
+
+<div id="links"></div>
+
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

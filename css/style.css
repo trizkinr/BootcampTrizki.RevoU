@@ -1,0 +1,83 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background: linear-gradient(135deg,#ffd1dc,#ff69b4,#ff1493);
+color:#333;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+margin-bottom:20px;
+box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+button{
+padding:8px 12px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+background:#ff4fa3;
+color:white;
+margin:4px;
+}
+
+button:hover{
+opacity:0.85;
+}
+
+input{
+padding:8px;
+margin:5px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+display:flex;
+justify-content:space-between;
+border-bottom:1px solid #eee;
+padding:8px;
+}
+
+.done{
+text-decoration:line-through;
+color:gray;
+}
+
+.link-box{
+display:flex;
+align-items:center;
+margin-top:8px;
+}
+
+.link-btn{
+background:#ff8fc7;
+padding:6px 10px;
+border-radius:6px;
+margin-right:10px;
+text-decoration:none;
+color:black;
+}
+
+.delete-btn{
+background:#ff3b3b;
+}
